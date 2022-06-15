@@ -142,7 +142,13 @@ where *target* is again the type of buffer (again in this case **GL\_ARRAY\_BUFF
 
 - Add code to **build\_square()** to bind the *first* element (*PosBuffer*) from the *ObjBuffers* array for the *obj* parameter index. **Hint:** *ObjBuffers* is a 2D array with the first index being the object and the second index being the buffer (enumerated in *Obj\_Buffer\_IDs*).
 
-- Add code to **build\_square()** to load the data from the *vertices* array into the currently bound buffer. **Hint:** To get the size (in bytes) of the *vertices* vector, use *sizeof(GLfloat)* \* *posCoords* \* *numVertices[obj]*, i.e. the number of bytes in a *GLfloat* times the number of coordinates per vertex (which in this case is 2) times the number of vertices in the object (stored in the numVertices array). To get a pointer to the elements from the vector, use the *.data()* method. Finally, set the usage flag to **GL\_STATIC\_DRAW** (indicating that we will not be changing the vertices later on).
+- Add code to **build\_square()** to load the data from the *vertices* array into the currently bound buffer. **Hint:** To get the size (in bytes) of the *vertices* vector, use
+
+```cpp
+    sizeof(GLfloat)*posCoords*numVertices[obj]
+```
+
+> i.e. the number of bytes in a *GLfloat* times the number of coordinates per vertex (which in this case is 2) times the number of vertices in the object (stored in the numVertices array). To get a pointer to the elements from the vector, use the *.data()* method. Finally, set the usage flag to **GL\_STATIC\_DRAW** (indicating that we will not be changing the vertices later on).
 
 ## Rendering Geometry
 

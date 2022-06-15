@@ -83,7 +83,7 @@ Your overall grade for the course will be determined as follows:
 
 ### Course website
 
-Please check the [course web page](<http://ycpcs.github.io/cs370-fall2021/>), regularly for important announcements.
+Please check the [course web page](<http://ycpcs.github.io/cs370-fall2022/>), regularly for important announcements.
 
 ### Exams
 
