@@ -246,8 +246,6 @@ where *mode* is the type of primitives we want to use with the vertices (e.g. **
 
 - Add code to **display()** to ensure all the rendering has completed
 
-- Add code to **render\_scene()** to call the **draw\_basic\_object()** function passing the *Square* constant to draw the square.
-
 - Add code to **draw\_basic\_object()** to select the *basic\_program* shader program. **Note:** This shader program variable is declared *globally* and will provide a convenient way of using it in multiple functions.
 
 - Add code to **draw\_basic\_object()** to bind the *obj* parameter index from the *VAOs* array. **Note:** This setup allows this function to be used to render multiple different objects.
@@ -267,6 +265,8 @@ where *mode* is the type of primitives we want to use with the vertices (e.g. **
 ```
 
 - Add code to **draw\_basic\_object()** to draw the geometry using **GL\_TRIANGLES** starting at vertex 0 and using the *obj* parameter index from the *numVertices* array.
+
+- Add code to **render\_scene()** to call the **draw\_basic\_object()** function passing the *Square* constant to draw the square.
 
 **Note:** For this lab, we are not specifying the *color* of our object in the application, but rather setting it directly in the fragment shader
 

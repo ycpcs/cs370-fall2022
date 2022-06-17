@@ -12,7 +12,7 @@ courseInfo.classPeriods = [
 		file: "CS370_Lab01"
 	},
 	{
-		topic: new Topic("Lab 2: Indexed Geometry and Colors", "lab02.html"),
+		topic: new Topic("Lab 2: Indexing and Adding Color Attributes Per Vertex", "lab02.html"),
 		reading: "Ch. 3",
 		file: "CS370_Lab02"
 	},
