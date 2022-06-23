@@ -3,13 +3,13 @@ layout: default
 title: "Assignment 4: Walking Man"
 ---
 
-**Written Questions Due: Wednesday, Nov 16th by 12:30/2:00 PM** (in class)
+**Written Questions Due: Friday, Nov 11th by 12:30/2:00 PM** (in class)
 
 **Program Due:**
 
 **Milestone 1: Friday, Nov 4th by 11:59 PM** 
 
-**Milestone 2: Thursday, Nov 17th by 11:59 PM** Late assignments will be penalized 20 points per day.
+**Milestone 2: Tuesday, Nov 15th by 11:59 PM** Late assignments will be penalized 20 points per day.
 
 ## Getting Started
 
