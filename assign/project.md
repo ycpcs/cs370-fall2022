@@ -19,7 +19,7 @@ Download [CS370\_Project.zip](src/CS370_Project.zip), saving it into the **CS370
 
 Double-click on **CS370\_Project.zip** and extract the contents of the archive into a subdirectory called **CS370\_Project**
 
-Open CLion, select **CS370-Fall2022** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Assign01** subdirectory). Add the line
+Open CLion, select **CS370-Fall2022** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Project** subdirectory). Add the line
 
 ```cpp
 	add_subdirectory("CS370_Project" "CS370_Project/bin")
