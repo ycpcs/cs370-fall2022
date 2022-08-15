@@ -187,7 +187,7 @@ York College recognizes the importance of effective communication in all discipl
 
 ### Student Accessibility Services
 
-In accordance with the provisions of Section 504 of the Rehabilitation Act of 1973, and the Americans with Disabilities Act of 1990, York College and its faculty are obliged to make reasonable classroom and physical accommodations for students with disabilities.  If you are a student with a disability in need of classroom accommodations and have not already registered with Linda Miller, Director of Student Accessibility Services, please contact her at 815-1785 or <lmille18@ycp.edu> to discuss policies and procedures related to disability services and to establish the accommodations for which you are eligible.
+York College of Pennsylvania offers a variety of academic accommodations to students with documented disabilities to ensure their success. To request accommodations, please contact Student Accessibility Services at (717) 815.1717 or <sas@ycp.edu>. Student Accessibility Services will discuss the confidential process of requesting accessibility services and establish the accommodations for which the student is eligible.
 
 ## Disclaimer
 
