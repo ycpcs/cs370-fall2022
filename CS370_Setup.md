@@ -7,7 +7,7 @@ For this course, we will be using [CMake](https://cmake.org) to configure our bu
 
 ## Getting Started
 
-Download [CS370-Fall2022-1.zip](CS370-Fall2022-1.zip), saving it into the directory where you plan on placing all your CS370 projects. **Note: BE SURE THE PATH DOES NOT CONTAIN ANY SPACES.**
+Download [CS370-Fall2022.zip](CS370-Fall2022.zip), saving it into the directory where you plan on placing all your CS370 projects. **Note: BE SURE THE PATH DOES NOT CONTAIN ANY SPACES.**
 
 Double-click on **CS370-Fall2022.zip** and extract the contents of the archive into a subdirectory called **CS370-Fall2022**
 
