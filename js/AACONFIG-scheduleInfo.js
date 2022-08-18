@@ -2,7 +2,7 @@
 
 courseInfo.classPeriods = [
 	{
-		topic: new DoubleTopic("Lab Setup", "labSetup.html", "Lab 0: Hello, OpenGL!", "lab00.html"),
+		topic: new Topic("Lab 0: Hello, OpenGL!", "lab00.html"),
 		reading: "",
 		file: "CS370_Lab00"
 	},
