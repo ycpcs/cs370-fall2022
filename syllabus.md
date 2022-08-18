@@ -9,16 +9,22 @@ title: Syllabus
 
 **Fall 2022**
 
-Instructor: <a href="http://faculty.ycp.edu/~dbabcock">David Babcock</a>, <dbabcock@ycp.edu>
+Instructors: 
 
-Office Hours: TBD, or by appointment
+**Section 101 (9am):** Dean Zeller, <dzeller@ycp.edu>
+**Section 102 (12pm):** <a href="http://faculty.ycp.edu/~dbabcock">David Babcock</a>, <dbabcock@ycp.edu>
+
+Office Hours: 
+
+Prof. Zeller: TBD
+Dr. Babcock: M 1-3, T 8:30-9:30, W 1:30-3, R 2-3, or by appointment
 
 Class times:
 
  Section  | Days     |  Time        | Room    | Final Exam
  -------- | -------- |  ----------- | ------- | ----------
-101       | Wed/Fri  | 9:00-10:15AM | KEC 124 | TBD
-102       | Wed/Fri  | 12:00-1:15PM | KEC 124 | TBD
+101       | Wed/Fri  | 9:00-10:15AM | KEC 124 | Wed, Dec 7 - 8:00-10:00am
+102       | Wed/Fri  | 12:00-1:15PM | KEC 124 | Fri, Dec 9 - 12:45-2:45pm
 
 ### Course Description
 
