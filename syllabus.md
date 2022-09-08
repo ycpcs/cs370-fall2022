@@ -17,6 +17,7 @@ Instructors:
 Office Hours: 
 
 Prof. Zeller: T R 12:30-1:30PM, W F 8:00-9:00AM, 10:30AM-12:00PM, 1:30-2:30PM, or by appointment
+
 Dr. Babcock: M 1-3PM, T 2-3PM, W 1:30-3PM, R 8:30-9:30AM, or by appointment
 
 Class times:
