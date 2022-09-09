@@ -9,7 +9,7 @@ All written portions should be submitted to Canvas. All programming portions (ex
 
 > Assignment | File | Written Due | Program Due | Solutions |
 > ---------- | ---- | ----------- | ----------- | --------- |
-> [Assignment 1: Don Quixote](assign01.html)       | [CS370_Assign01.zip](src/CS370_Assign01.zip) | **Sept 9**  | **Sept 13** | |
+> [Assignment 1: Don Quixote](assign01.html)       | [CS370_Assign01.zip](src/CS370_Assign01.zip) | **Sept 9**  | **Sept 13** | [assign01sol.pdf](sol/assign01sol.pdf) |
 > [Assignment 2: Rollin Train](assign02.html)      | [CS370_Assign02.zip](src/CS370_Assign02.zip) | **Sept 23** | **Milestone 1: Sept 20** <br /> **Milestone 2: Sept 27** | |
 > [Assignment 3: Limelight](assign03.html)         | [CS370_Assign03.zip](src/CS370_Assign03.zip) | **Oct 19**  | **Milestone 1: Oct 7** <br /> **Milestone 2: Oct 20** | |
 > [Assignment 4: WalkingMan](assign04.html)        | [CS370_Assign04.zip](src/CS370_Assign04.zip) | **Nov 11**  | **Milestone 1: Nov 4** <br /> **Milestone 2: Nov 15** | |
