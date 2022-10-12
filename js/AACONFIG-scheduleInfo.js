@@ -88,11 +88,6 @@ courseInfo.classPeriods = [
 		topic: new Topic("** Exam 2", "")
 	},
 	{
-		topic: new Topic("Lab 13: Texture Mapping", "lab13.html"),
-		reading: "Ch. 6",
-		file: "CS370_Lab13"
-	},
-	{
 		topic: new Topic("Lab 14: Scene Graphs", "lab14.html"),
 		reading: "",
 		file: "CS370_Lab14"
