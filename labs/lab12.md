@@ -53,6 +53,12 @@ After the mesh has been added, there may be a dialog box in the lower left porti
 
 Some additional meshes can be obtained by selecting the drop down menu in the lower right window, choosing **Data->Preferences->Add-ons->Add Mesh: Extra Objects**.
 
+You can also combine several meshes together, which is necessary for our model loader to work properly, by
+
+- Select all the meshes using Shift-(left click)
+
+- After all the meshes are selected, hit CTRL-J to combine the meshes into a single one that can be exported
+
 ### Tasks
 
 - Open up Blender and delete the default cube
