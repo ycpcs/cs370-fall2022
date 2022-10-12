@@ -75,6 +75,11 @@ courseInfo.classPeriods = [
 		file: "CS370_Lab12"
 	},
 	{
+		topic: new Topic("Lab 13: Texture Mapping", "lab13.html"),
+		reading: "Ch. 6",
+		file: "CS370_Lab13"
+	},
+	{
 		topic: new Topic("Exam Review", ""),
 		reading: "",
 		file: ""
