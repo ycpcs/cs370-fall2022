@@ -53,7 +53,11 @@ After the mesh has been added, there may be a dialog box in the lower left porti
 
 Some additional meshes can be obtained by selecting the drop down menu in the lower right window, choosing **Data->Preferences->Add-ons->Add Mesh: Extra Objects**.
 
+### Multiple Meshes
+
 You can also combine several meshes together, which is necessary for our model loader to work properly, by
+
+- Add all the desired meshes and move them into their proper places/sizes/orientations
 
 - Select all the meshes using Shift-(left click)
 
