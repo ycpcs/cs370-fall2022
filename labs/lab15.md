@@ -76,7 +76,7 @@ One other consideration when rendering the shadow map, is unlike our regular ren
 
 - Add code to **main()** in the rendering loop to call **create\_shadows()** *before* **display()**. Cull front faces by calling **glCullFace(GL\_FRONT)** immediately before creating the shadows and then reset it using **glCullFace(GL\_BACK)** immediately after creating the shadows.
 
-**Note:** Observe how the viewport is adjusted to match the shadow map resolution and the shadow buffer is bound as the framebuffer. Also, sometimes it can be tricky to set the shadow camera and projection matrices correctly, so a *debug\_program* shader has been provided (using **debugShadow.vert** and **debugShadow.frag**). This debug shader can be used to help adjust the shadow camera and projection matrices until the desired depth map is obtained by rendering the shadow map directly onto the screen by uncommenting the **renderQuad()** call in the main rendering loop and commenting out the **display()** call.
+**Note:** Observe how the viewport is adjusted to match the shadow map resolution when rendering the scene from the light (and then set back to the normal viewport for the display window) and the shadow buffer is bound as the framebuffer. Also, sometimes it can be tricky to set the shadow camera and projection matrices correctly, so a *debug\_program* shader has been provided (using **debugShadow.vert** and **debugShadow.frag**). This debug shader can be used to help adjust the shadow camera and projection matrices until the desired depth map is obtained by rendering the shadow map directly onto the screen by uncommenting the **renderQuad()** call in the main rendering loop and commenting out the **display()** call.
 
 ## Rendering the Scene with Shadows
 
