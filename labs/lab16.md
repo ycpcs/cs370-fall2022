@@ -41,7 +41,7 @@ In order to store the image of the scene from the perspective of the mirror, we 
 
 ### Tasks
 
-- Add code to **build\_mirror()** to generate a texture for the environment map (bound using the *MirrorTex* id) that is *ww* by *hh* using **glTexImage2D()**
+- Add code to **build\_mirror()** to creates an empty mirror texture for the environment map (which is allocated and bound for the *m\_texid* parameter that is passed as *MirrorTex*) that is *ww* by *hh* using **glTexImage2D()**
 
 ```cpp
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, ww, hh, 0, GL_RGBA, GL_FLOAT, NULL);
