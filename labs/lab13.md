@@ -147,7 +147,13 @@ Textures are associated with an object on a *per vertex* basis (similar to norma
 
 **Note:** The model loader we are using will return a vector of *uv*-coordinates for each vertex.
 
-Prior to rendering the object, we must *bind* the texture coordinate buffer along with the texture we wish to use (which will associate it with a shader *sampler* variable discussed below) again using
+Prior to rendering the object, we must make the desired texture unit (0 for now) *active*, and then *bind* the texture coordinate buffer along with the texture we wish to use (which will associate it with a shader *sampler* variable discussed below) again using
+
+```cpp
+void glActiveTexture(GLenum tex_unit);
+```
+
+where *tex\_unit* is a symbolic constant of the form **GL\_TEXTURE***i* where *i* is the number of the texture unit we wish to make active, e.g. **GL\_TEXTURE0**, and
 
 ```cpp
 void glBindTexture(GLenum target, GLuint texture);
@@ -157,7 +163,7 @@ where *target* is a symbolic constant denoting the *type* of texture we are bind
 
 ### Tasks
 
-- Add code to **draw\_tex\_object()** to bind the *obj* parameter index from the *TextureIDs[]* array. **Hint:** This is a **GL\_TEXTURE\_2D** texture.
+- Add code to **draw\_tex\_object()** to make **GL\_TEXTURE0** active and bind the *obj* parameter index from the *TextureIDs[]* array. **Hint:** This is a **GL\_TEXTURE\_2D** texture.
 
 - Add code to **render\_scene()** to call **draw\_tex\_object()** passing the *TexSphere* and *Earth* constants to draw the earth.
 

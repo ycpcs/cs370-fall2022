@@ -60,10 +60,10 @@ void glUniform1i(GLint location, GLint value);
 where *location* is the reference for the shader sampler and *value* is the unit number we wish to associate with the sampler. Then we will make the texture unit *active* using 
 
 ```cpp
-void glActiveTexture(GLenum texture);
+void glActiveTexture(GLenum tex_unit);
 ```
 
-where *texture* is a symbolic constant of the form **GL\_TEXTURE***i* where *i* is the number of the texture unit we wish to make active, e.g. **GL\_TEXTURE0**.
+where *tex\_unit* is a symbolic constant of the form **GL\_TEXTURE***i* where *i* is the number of the texture unit we wish to make active, e.g. **GL\_TEXTURE0**.
 
 Finally, we will bind the desired texture to the unit as usual using
 
